@@ -1,0 +1,4 @@
+sudo imx-mkimage/mkimage_imx8 -soc QX -rev B0 -append imx-mkimage/mx8qxb0-ahab-container.img -dev flexspi -c -flags 0x00010000 -scfw imx-mkimage/scfw_tcm_b0.bin -ap ipl-imx8qxp-cpu.bin a35 0x80000000 -out ipl-imx8qxp-cpu_b0_flexspi.imx
+
+
+Wu You
